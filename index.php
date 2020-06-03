@@ -8,6 +8,7 @@
       <li><a href="Ejercicio_4.php" target="_new">Ejercicio 4</a></li>
       <li><a href="Ejercicio_5.php" target="_new">Ejercicio 5</a></li>
       <li><a href="Ejercicio_6.php?clase=Lenguaje 4&periodo=2020-01" target="_new">Ejercicio 6</a></li>
+      <li><a href="Ejercicio_7.php?clase=Lenguaje 4&periodo=2020-01" target="_new">Ejercicio 7</a></li>
       <ul>
      
   </body>
