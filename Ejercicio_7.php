@@ -42,14 +42,17 @@
       }
 
       $i=2;
-      boolean primo = true;
-      while((primo) && ($i != $_GET['numero']))
+      boolean primo = false;
+      while((primo == false) && ($i < $_GET['numero']))
       {
           if($_GET['numero'] % $i == 0){
-              primo=false;
+              primo = true;
+          }
+          else{
+              primo = false;
               $i++
           }
-    return primo;
+          return primo;
       }
 
       if(primo == true){
