@@ -19,7 +19,7 @@
       }
       echo "<p>Finaliza ciclo for</p>";
 
-      $familia = array("Maria", "Ana", "Jose"; "Pedro");
+      $familia = array("Maria", "Ana", "Jose", "Pedro");
 
       for ($i=0;$i<=sizeof($familia);$i++)
       {
