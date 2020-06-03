@@ -40,6 +40,27 @@
         echo "<p>El valor ingresado no es un numero entero</p>";
         echo "<br>";
       }
+
+      $i=2;
+      boolean primo = true;
+      while((primo) && ($i != $_GET['numero']))
+      {
+          if($_GET['numero'] % $i == 0){
+              primo=false;
+              $i++
+          }
+    return primo;
+      }
+
+      if(primo == true){
+        echo "<p>El valor ingresado es un numero primo</p>";
+        echo "<br>";
+      }
+      else{
+        echo "<p>El valor ingresado no es un numero primo</p>";
+        echo "<br>";
+      }
+
       ?>
       
       <form>
