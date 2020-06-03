@@ -15,22 +15,22 @@
      echo "<p>Despliega el contenido del arreglo:</p>";
      print_r ($miArreglo);
 
-     echo "<p>El tamaño del arreglo es:" .sizeof($miArreglo)."</p>";
+     echo "<p>El tamaño del arreglo es:".sizeof($miArreglo)."</p>";
 
      $miFechaArr["dia"]="Lunes";
      $miFechaArr["mes"]="Mayo";
      $miFechaArr["Año"]="2020";
 
-     echo "<br><br>"
+     echo "<br><br>";
 
      var_dump ($miFechaArr);
 
      unset ($miFechaArr["año"]);
-     echo "<br><br>"
+     echo "<br><br>";
      print_r ($miFechaArr);
      $miArregloReves = array_reverse($miArreglo);
 
-     echo "<br><br>"
+     echo "<br><br>";
      print_r($miArregloReves);
 
       ?>

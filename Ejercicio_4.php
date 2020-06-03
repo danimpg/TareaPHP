@@ -6,9 +6,9 @@
 
       <?php
       header ("Content-type: text/html;charset=\"utf-8\"");
-      $usuario = "mrami02";
+      $usuario = "dmari02";
 
-      if ($usuario == "mrami0" || $usuario == "mrami02")
+      if ($usuario == "dmari0" || $usuario == "dmari02")
       {
           echo "<h1>Usuario es valido</h1>";
 
