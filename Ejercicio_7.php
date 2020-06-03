@@ -50,7 +50,7 @@
           }
           else{
               primo = false;
-              $i++
+              $i++;
           }
           return primo;
       }
@@ -65,7 +65,7 @@
       }
 
       ?>
-      
+
       <form>
           Validar Numero :
           <input name="numero" type="text" placeholder="Escribe un Numero: ">
