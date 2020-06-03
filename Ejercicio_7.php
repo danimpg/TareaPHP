@@ -30,7 +30,7 @@
         echo "<p>El numero ingresado no es mayor que 1</p>";
         echo "<br>";
       }
-      if(is_integer($_GET['numero']))
+      if(ctype_digit($_GET['numero']) == true)
       {
         echo "<p>El valor ingresado es un numero entero</p>";
         echo "<br>";
