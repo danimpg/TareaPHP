@@ -41,7 +41,7 @@
         echo "<br>";
       }
 
-      $i=2;
+    /*  $i=2;
       boolean $primo = false;
       while(($primo == false) && ($i < $_GET['numero']))
       {
@@ -63,7 +63,7 @@
         echo "<p>El valor ingresado no es un numero primo</p>";
         echo "<br>";
       }
-
+*/
 
        /*$contador = 0;
        for($i=1;$i<=$_GET['numero'];$i++){
