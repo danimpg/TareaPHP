@@ -88,6 +88,10 @@
        for ($i=1;$i<=$_GET['numero'];$i++)
        {
            echo "<p>$i</p>";
+           if(($_GET['numero'] % $i) == 0)
+           {
+               $contador++;
+           }
        }
 
       ?>
