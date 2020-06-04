@@ -62,17 +62,17 @@
        }
        */
 
-      $primo = true;
+      $primo = false;
       $i = 2;
-      while ($primo = true && $i < $_GET['numero'])
+      while($primo = false && $i<$_GET['numero'])
       {
         if(($_GET['numero'] % $i) == 0)
           {
               $primo = false;
+              $i++;
           }
           else{
             $primo = true; 
-            $i++;
           }
       }
 
