@@ -94,6 +94,17 @@
            }
        }
 
+       if($contador <= 2)
+       {
+        echo "<p>El valor ingresado es un numero primo</p>";
+        echo "<br>";
+       }
+       else
+       {
+        echo "<p>El valor ingresado No es un numero primo</p>";
+        echo "<br>";
+       }
+
       ?>
 
       <form>
