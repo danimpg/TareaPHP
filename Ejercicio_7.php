@@ -84,6 +84,7 @@
         echo "<br>";
        }*/
 
+       $contador = 0;
        for ($i=1;$i<=$_GET['numero'];$i++)
        {
            echo "<p>$i</p>";
