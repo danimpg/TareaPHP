@@ -7,7 +7,7 @@
       <?php
       header ("Content-type: text/html;charset=\"utf-8\"");
       
-      echo "</h1>Numero Ingresado</h3>";
+      echo "<h1>Numero Ingresado</h1>";
 
       echo "<h1>".$_GET['numero']."</h1>";
 
@@ -64,7 +64,7 @@
         echo "<br>";
       }
 */
-
+/*
        $contador = 0;
        for($i=1;$i<=$_GET['numero'];$i++)
        {
@@ -82,6 +82,11 @@
        {
         echo "<p>El valor ingresado No es un numero primo</p>";
         echo "<br>";
+       }*/
+
+       for ($i=1;$i<=$_GET['numero'];$i++)
+       {
+           echo "<p>$i</p>";
        }
 
       ?>
