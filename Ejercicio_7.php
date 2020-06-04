@@ -40,55 +40,11 @@
         echo "<p>El valor ingresado no es un numero entero</p>";
         echo "<br>";
       }
-
-    /*  $i=2;
-      boolean $primo = false;
-      while(($primo == false) && ($i < $_GET['numero']))
-      {
-          if(($_GET['numero'] % $i) == 0){
-              $primo = true;
-          }
-          else{
-              $primo = false;
-              $i++;
-          }
-          return $primo;
-      }
-
-      if($primo == true){
-        echo "<p>El valor ingresado es un numero primo</p>";
-        echo "<br>";
-      }
-      else{
-        echo "<p>El valor ingresado no es un numero primo</p>";
-        echo "<br>";
-      }
-*/
-/*
-       $contador = 0;
-       for($i=1;$i<=$_GET['numero'];$i++)
-       {
-           if(($_GET['numero'] % $i) == 0)
-           {
-               $contador++;
-           }
-       }
-       if(contador <= 2)
-       {
-        echo "<p>El valor ingresado es un numero primo</p>";
-        echo "<br>";V
-       }
-       else
-       {
-        echo "<p>El valor ingresado No es un numero primo</p>";
-        echo "<br>";
-       }*/
-
+      
        $contador = 0;
        for ($i=1;$i<=$_GET['numero'];$i++)
        {
-           echo "<p>$i</p>";
-           if(($_GET['numero'] % $i) == 0)
+         if(($_GET['numero'] % $i) == 0)
            {
                $contador++;
            }
