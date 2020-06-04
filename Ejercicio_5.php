@@ -30,7 +30,7 @@
       echo "<br><br>";
 
       echo "<p>Ciclo while</p>";
-      $i = 1;
+      $i = 0;
       while($i <= sizeof($familia)){
           echo "<h2>$familia[$i]</h2>";
           echo "<br>";
