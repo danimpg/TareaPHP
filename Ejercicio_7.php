@@ -94,7 +94,7 @@
            }
        }
 
-       if($contador <= 2)
+       if($contador == 2)
        {
         echo "<p>El valor ingresado es un numero primo</p>";
         echo "<br>";
